@@ -1,0 +1,49 @@
+contact{
+  background: url(../../assets/backgrounds/bg2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact__container{
+  background-color: #070c0beb;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario input, select, textarea{
+  width: 23vw;
+  padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--color--bg);
+    font-weight: 500;
+    border-radius: 5px;
+    color: var(--color-primary-variant);
+}
+
+.formulario ::placeholder {
+  color: var(--color-primary-variant);
+}
+
+.formulario select, option{
+  cursor: pointer;
+}
+
+.formulario select{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+}
+

@@ -1,0 +1,52 @@
+portfolio {
+  background: url(../../assets/backgrounds/bg3.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.portfolio__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__container{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page__position{
+  width: 10vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.tr1{
+  color: var(--color-primary);
+}
+
+.tr2, .tr3 {
+  color: var(--color--bg);
+}
+
+.projects__content__container{
+  justify-content: left;
+  width: 34vw;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}

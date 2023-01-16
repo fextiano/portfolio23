@@ -1,0 +1,35 @@
+.hability{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  padding: 0.5rem;
+  transition: all ease 1s;
+}
+
+.hability svg{
+  color: var(--color-secondary);
+  margin-right: 0.5rem;
+}
+
+.hability p{
+  color: var(--color-white);
+  font-weight: 1000;
+}
+
+.hability:hover{
+  cursor: pointer;
+}
+
+.hability:hover p{
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.hability:hover svg{
+  color: var(--color-primary);
+  width: 30px;
+  height: 30px;
+}
+

@@ -1,0 +1,26 @@
+nav{
+  width: 20vw;
+  height: 4.5rem;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 40%;
+  opacity: 80%;
+  background-color: var(--color--bg);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.nav__container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 1.5rem auto;
+width: 15vw;
+}
+
+.nav__container svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+

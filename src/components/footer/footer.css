@@ -1,0 +1,20 @@
+footer{
+  width: 100vw;
+  height: 30vh;
+  background: url(../../assets/backgrounds/bgfooter.jpg);
+}
+
+.left, .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.footer__container{
+  display: flex;
+}
+

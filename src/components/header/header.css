@@ -1,0 +1,56 @@
+header{
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: url(../../assets/backgrounds/bg1.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__container{
+  text-align: center;
+  height: 80vh;
+  padding-top: 10vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: dodgerblue; */
+}
+
+.header__container h5{
+  font-weight: 600;
+}
+
+.header__social svg{
+  height: 3vh;
+  width: 3vw;
+}
+
+.header__social a{
+  color: var(--color-terciary);
+  transition: var(--transition);
+}
+
+.slogantext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width:max-content;
+  color: var(--color-primary-variant);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.slogantext p{
+  padding-left: 0.4rem;
+}
+
+header b{
+  color: var(--color-primary-variant);
+}
